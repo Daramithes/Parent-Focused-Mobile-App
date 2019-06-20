@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nick.mobileproject.Child_Selection_Activity">
+
+    <Button
+        android:id="@+id/Logout_Selection"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginBottom="36dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/logout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/AddBaby_Selection"
+        app:layout_constraintTop_toBottomOf="@+id/ChildView_Selection" />
+
+    <Button
+        android:id="@+id/AddBaby_Selection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/AddBaby"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/Logout_Selection"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ChildView_Selection" />
+
+    <TextView
+        android:id="@+id/Baby_List"
+        android:layout_width="77dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="265dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/BabyList"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <GridView
+        android:id="@+id/ChildView_Selection"
+        android:layout_width="277dp"
+        android:layout_height="364dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="4dp"
+        android:numColumns="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Baby_List" />
+
+</android.support.constraint.ConstraintLayout>

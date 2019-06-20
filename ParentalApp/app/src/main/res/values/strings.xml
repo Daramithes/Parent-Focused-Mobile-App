@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">ParentalApp</string>
+    <string name="Language">English</string>
+
+    <!--Login Page Strings-->
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="Login">Login</string>
+    <string name="RegisterHere">Register Here</string>
+
+    <!--Register Specific Strings-->
+    <string name="FirstName">First Name</string>
+    <string name="LastName">Last Name</string>
+    <string name="Email">Email</string>
+    <string name="Back">Back</string>
+    <string name="Register">Register</string>
+
+    <!--Child_List Specific Strings-->
+    <string name="AddBaby">Add Baby</string>
+    <string name="BabyList">Baby List</string>
+    <string name="logout">Logout</string>
+
+    <!--Sleeping Specific String-->
+    <string name="BabyInfo"></string>
+    <string name="Sleep">Sleep</string>
+    <string name="Add_Sleep">Add Sleep</string>
+    <string name="Hours_Sleep">Hours of Sleep</string>
+    <string name="Schedule">Create Schedule</string>
+    <string name="Food">Food</string>
+    <string name="Date">Date</string>
+    <string name="Home">Home</string>
+    <string name="Length">Length of sleep</string>
+
+    <!--Schedule Specific Strings-->
+    <string name="Add">Add</string>
+    <string name="Remove">Remove</string>
+
+    <!--Food_Info Specific Strings-->
+    <string name="Meal">Meal:</string>
+    <string name="AddMeal">Add Meal</string>
+    <string name="ViewMeals">View Previous Meal</string>
+    <string name="Time">Time Had:</string>
+    <string name="Percentage">Amount Eaten:</string>
+
+    <!--Baby_Add Specific Strings-->
+    <string name="Name_Extra">Name:</string>
+    <string name="DoB">Date of Birth:</string>
+    <string name="Sex">Sex</string>
+    <string name="Male">Male</string>
+    <string name="Female">Female</string>
+    <string name="AddChild">Add Child</string>
+
+    <!--Setting Page Specific Strings-->
+    <string name="TypeOf">Type Of Colour-Blindness</string>
+    <string name="Protanopia">Protanopia</string>
+    <string name="Deuteranopia">Deuteranopia</string>
+    <string name="Tritanopia">Tritanopia</string>
+</resources>
